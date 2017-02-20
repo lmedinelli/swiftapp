@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         tapCount += 1
         //print("Button pressed number : " + String.init(tapCount) )
         
-        if tapCount >= 10{
-          theLabel.text = "You tapped the button more than 10 times!"  
+        if tapCount >= 15{
+          theLabel.text = "You tapped the button more than 15 times!"
         }
         
         //theLabel.text = "Hello There Button!"
